@@ -7,6 +7,8 @@ public class BurgerStack {
 		burgerStack.push("Burger 1");
 		burgerStack.push("Burger 2");
 		burgerStack.push("Burger 3");
+		burgerStack.push("Burger 4");
+		burgerStack.push("Burger 5");
 		System.out.println("Top burger is"+burgerStack.peek());
 		System.out.println("Serving"+burgerStack.pop());
 		if(burgerStack.isEmpty()) {
@@ -15,5 +17,4 @@ public class BurgerStack {
 		
 		
 	}
-
 }
